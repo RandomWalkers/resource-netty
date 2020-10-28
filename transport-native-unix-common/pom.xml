@@ -63,8 +63,7 @@
               <checkoutDirectory>${jniUtilCheckoutDir}</checkoutDirectory>
               <connectionType>developerConnection</connectionType>
               <developerConnectionUrl>scm:git:https://github.com/netty/netty-jni-util.git</developerConnectionUrl>
-              <!-- TODO: Change this to a release tag once we did a release -->
-              <scmVersion>main</scmVersion>
+              <scmVersion>0.0.1</scmVersion>
               <scmVersionType>branch</scmVersionType>
               <skipCheckoutIfExists>true</skipCheckoutIfExists>
             </configuration>
