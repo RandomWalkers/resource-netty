@@ -64,7 +64,7 @@
               <connectionType>developerConnection</connectionType>
               <developerConnectionUrl>scm:git:https://github.com/netty/netty-jni-util.git</developerConnectionUrl>
               <scmVersion>0.0.1</scmVersion>
-              <scmVersionType>branch</scmVersionType>
+              <scmVersionType>tag</scmVersionType>
               <skipCheckoutIfExists>true</skipCheckoutIfExists>
             </configuration>
           </execution>
