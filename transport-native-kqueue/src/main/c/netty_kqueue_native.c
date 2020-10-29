@@ -36,6 +36,11 @@
 #include "netty_unix_socket.h"
 #include "netty_unix_util.h"
 
+// Add define if NETTY_BUILD_STATIC is defined so it is picked up in netty_jni_util.c
+#ifdef NETTY_BUILD_STATIC
+#define NETTY_JNI_UTIL_BUILD_STATIC
+#endif
+
 #define STATICALLY_CLASSNAME "io/netty/channel/kqueue/KQueueStaticallyReferencedJniMethods"
 #define NATIVE_CLASSNAME "io/netty/channel/kqueue/Native"
 
